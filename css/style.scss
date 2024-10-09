@@ -180,6 +180,8 @@ nav {
     display: flex;
     flex-direction: column;
     a {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
       width: fit-content;
       margin-top: 20px;
       margin-left: 1rem;
@@ -370,6 +372,7 @@ nav {
   .why {
     text-align: center;
     display: flex;
+    flex-direction: column;
     background-color: $primary2;
     padding: 30px 10px;
     color: $primary11;
@@ -464,14 +467,12 @@ nav {
       display: block;
       padding: 10px 15px;
       border: none;
-      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       font-size: 12pt;
       margin-bottom: 0.5rem;
     }
     input,
     textarea {
-      -webkit-box-shadow: inset 0px 4px 10px -5px rgba(0, 0, 0, 0.7);
       box-shadow: inset 0px 4px 10px -5px rgba(0, 0, 0, 0.7);
       outline: none;
       display: block;

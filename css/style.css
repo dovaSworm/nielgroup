@@ -371,6 +371,7 @@ nav span.line {
 #about .why {
   text-align: center;
   display: flex;
+  flex-direction: column;
   background-color: #252525;
   padding: 30px 10px;
   color: #bd5a13;
